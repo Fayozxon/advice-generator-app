@@ -1,0 +1,25 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+/* Variables */
+:root {
+  --clr-lt-cyan: hsl(193, 38%, 86%);
+  --clr-neon-green: hsl(150, 100%, 66%);
+
+  --clr-grayish-blue: hsl(217, 19%, 38%);
+  --clr-dk-grayish-blue: hsl(217, 19%, 24%);
+  --clr-dk-blue: hsl(218, 23%, 16%);
+}
+
+/* Core */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background: var(--clr-dk-blue);
+  color: var(--clr-lt-cyan);
+}
